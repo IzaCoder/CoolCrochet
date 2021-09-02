@@ -7,6 +7,12 @@
         <script src="../static/script.js"></script>
     </head>
     <body>
-        
+        <label for="pattern_file">Select a file: </label>
+        <input type="file" accept=".pdf,.txt,.pages,.doc,.docx" id="pattern_file" name="pattern_file">
+        <p>OR</p>
+        <label for="pattern_text">Type your pattern here:</label>
+        <button onclick="show_formatting()">Show proper formatting</button>
+        <br>
+        <textarea placeholder="Your pattern here..." id="pattern_text" name="pattern_text"></textarea>
     </body>
 </html>
